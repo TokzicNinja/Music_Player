@@ -2,15 +2,16 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <group android:checkableBehavior="single"
         >
-        <item android:id="@+id/songs"
-            android:icon="@drawable/ic_songs"
-            android:title="Songs"/>
         <item android:id="@+id/albums"
             android:icon="@drawable/ic_album_music"
-            android:title="Albums"/>
+            android:title="@string/albums_string" />
         <item android:id="@+id/artists"
             android:icon="@drawable/ic_artist"
-            android:title="Artists"/>
+            android:title="@string/artists_string" />
+        <item
+            android:id="@+id/now_playing"
+            android:icon="@drawable/ic_now_playing"
+            android:title="@string/now_playing_string" />
     </group>
 
 </menu>

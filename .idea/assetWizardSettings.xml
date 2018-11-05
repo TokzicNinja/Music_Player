@@ -23,7 +23,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
-                                                <entry key="scalingPercent" value="67" />
+                                                <entry key="scalingPercent" value="68" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -33,12 +33,7 @@
                                   </option>
                                   <option name="values">
                                     <map>
-                                      <entry key="backgroundAssetType" value="COLOR" />
-                                      <entry key="backgroundImage" value="C:\Users\MANGALISO_ELVYNN\Videos\Music_Player_App_Structure\app\src\main\res\drawable\ic_launcher_background.xml" />
-                                      <entry key="backgroundLayerName" value="ic_maneater_song_background" />
-                                      <entry key="foregroundImage" value="C:\Users\MANGALISO_ELVYNN\Videos\Music_Player_App_Structure\app\src\main\res\drawable\maneater_nelly.jpg" />
-                                      <entry key="foregroundLayerName" value="ic_maneater_song_foreground" />
-                                      <entry key="outputName" value="ic_maneater_song_art" />
+                                      <entry key="foregroundImage" value="C:\Users\infuser\Downloads\IMG-20181104-WA0000.jpg" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -69,7 +64,7 @@
                                 <PersistentState>
                                   <option name="values">
                                     <map>
-                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/social/ic_person_black_24dp.xml" />
+                                      <entry key="url" value="jar:file:/C:/Program%20Files/Android/Android%20Studio/plugins/android/lib/android.jar!/images/material_design_icons/av/ic_play_arrow_black_24dp.xml" />
                                     </map>
                                   </option>
                                 </PersistentState>
@@ -79,8 +74,8 @@
                         </option>
                         <option name="values">
                           <map>
-                            <entry key="outputName" value="ic_artist" />
-                            <entry key="sourceFile" value="C:\Users\MANGALISO_ELVYNN" />
+                            <entry key="outputName" value="ic_now_playing" />
+                            <entry key="sourceFile" value="C:\Users\User" />
                           </map>
                         </option>
                       </PersistentState>

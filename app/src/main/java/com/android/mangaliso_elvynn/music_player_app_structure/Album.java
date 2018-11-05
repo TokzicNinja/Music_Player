@@ -19,16 +19,24 @@ public class Album {
     public String getArtistName() {
         return artistName;
     }
+
     public String getAlbumName() {
         return albumName;
     }
-    public int getResId() { return mResId; }
+
+    public int getResId() {
+        return mResId;
+    }
 
     public void setArtistName(String artistName) {
         this.artistName = artistName;
     }
+
     public void setTitle(String albumName) {
         this.albumName = albumName;
     }
-    public void setResId(int mResId) {this.mResId = mResId;}
+
+    public void setResId(int mResId) {
+        this.mResId = mResId;
+    }
 }

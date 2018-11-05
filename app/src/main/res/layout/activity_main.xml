@@ -8,9 +8,20 @@
     android:layout_height="match_parent"
     tools:context="com.android.mangaliso_elvynn.music_player_app_structure.MainActivity">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme"
+            app:theme="@style/AppTheme"
+            app:titleTextColor="#fff" />
 
         <ListView
             android:id="@+id/list"

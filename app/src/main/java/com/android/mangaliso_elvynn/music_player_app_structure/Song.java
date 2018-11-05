@@ -23,16 +23,24 @@ public class Song {
     public String getArtist() {
         return artist;
     }
+
     public String getTitle() {
         return title;
     }
-    public int getResId() { return mResId; }
+
+    public int getResId() {
+        return mResId;
+    }
 
     public void setArtist(String artist) {
         this.artist = artist;
     }
+
     public void setTitle(String title) {
         this.title = title;
     }
-    public void setResId(int mResId) {this.mResId = mResId;}
+
+    public void setResId(int mResId) {
+        this.mResId = mResId;
+    }
 }

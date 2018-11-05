@@ -8,10 +8,11 @@
 
 
     <SeekBar
+        style="@style/AppTheme"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="20dp"
         android:layout_above="@id/nowPlaying_layout"
-        android:thumbTint="@color/design_default_color_primary" />
+        android:progressTint="@color/colorPrimaryDark" />
 
     <LinearLayout
         android:id="@+id/nowPlaying_layout"
