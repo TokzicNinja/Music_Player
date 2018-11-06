@@ -7,15 +7,17 @@
     android:layout_height="match_parent">
 
     <ImageView
-        tool:src="@mipmap/ic_dreaming_song_art_round"
+        tool:src="@drawable/ic_dreaming_song_art_web"
         android:id="@+id/albumArtImageView"
-        android:layout_width="85dp"
-        android:layout_height="85dp" />
+        android:layout_width="90dp"
+        android:layout_height="90dp" />
+
     <LinearLayout
+        android:gravity="center_vertical"
         android:paddingLeft="8dp"
         android:orientation="vertical"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="90dp">
 
         <TextView
             android:id="@+id/albumTextView"

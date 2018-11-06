@@ -20,18 +20,18 @@ public class AlbumsActivity extends AppCompatActivity {
         setContentView(R.layout.album_layout);
 
         ArrayList<Album> albums = new ArrayList<Album>();
-        albums.add(new Album("Confessions on a Dance Floor", "Madonna", R.mipmap.ic_jump_song_art_round));
-        albums.add(new Album("Loose", "Nelly Furtado", R.mipmap.ic_maneater_song_art_round));
-        albums.add(new Album("To Pimp a Butterfly", "Kendrick Lamar", R.mipmap.ic_how_much_a_dollar_song_art_round));
-        albums.add(new Album("Single", "Simmy", R.mipmap.ic_ubala_song_art_round));
-        albums.add(new Album("FutureSex/LoveSounds", "Justin Timberlake", R.mipmap.ic_what_goes_around_song_art_round));
-        albums.add(new Album("Self-Control", "Laura Branigan", R.mipmap.ic_self_control_song_art_round));
-        albums.add(new Album("God's Son", "Nas", R.mipmap.ic_heaven_song_art_round));
-        albums.add(new Album("Jason Derulo", "Jason Derulo", R.mipmap.ic_solo_song_art_round));
-        albums.add(new Album("Rat in the Kitchen", "UB40", R.mipmap.ic_song_our_own_song_song_art_round));
-        albums.add(new Album("War & Peace", "Edwin Starr", R.mipmap.ic_war_song_art_round));
-        albums.add(new Album("American Teen", "Khalid", R.mipmap.ic_saved_song_art_round));
-        albums.add(new Album("Lovetap", "Smallpools", R.mipmap.ic_dreaming_song_art_round));
+        albums.add(new Album("Confessions on a Dance Floor", "Madonna", R.drawable.ic_jump_song_art_web));
+        albums.add(new Album("Loose", "Nelly Furtado", R.drawable.ic_maneater_song_art_web));
+        albums.add(new Album("To Pimp a Butterfly", "Kendrick Lamar", R.drawable.ic_how_much_a_dollar_song_art_web));
+        albums.add(new Album("Single", "Simmy", R.drawable.ic_ubala_song_art_web));
+        albums.add(new Album("FutureSex/LoveSounds", "Justin Timberlake", R.drawable.ic_what_goes_around_song_art_web));
+        albums.add(new Album("Self-Control", "Laura Branigan", R.drawable.ic_self_control_song_art_web));
+        albums.add(new Album("God's Son", "Nas", R.drawable.ic_heaven_song_art_web));
+        albums.add(new Album("Jason Derulo", "Jason Derulo", R.drawable.ic_solo_song_art_web));
+        albums.add(new Album("Rat in the Kitchen", "UB40", R.drawable.ic_song_our_own_song_song_art_web));
+        albums.add(new Album("War & Peace", "Edwin Starr", R.drawable.ic_war_song_art_web));
+        albums.add(new Album("American Teen", "Khalid", R.drawable.ic_saved_song_art_web));
+        albums.add(new Album("Lovetap", "Smallpools", R.drawable.ic_dreaming_song_art_web));
 
 
         GridView gridView = findViewById(R.id.ImageGridView);

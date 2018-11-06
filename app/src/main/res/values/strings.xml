@@ -4,7 +4,6 @@
     <string name="artists_string">Artists</string>
     <string name="now_playing_string">Now Playing</string>
     <string name="music_player_name_string">Music Player</string>
-    <string name="artist_name_string">Artist Name</string>
     <string name="album_name_string">Album Name</string>
     <string name="artist_name_string">Artist Name</string>
 </resources>

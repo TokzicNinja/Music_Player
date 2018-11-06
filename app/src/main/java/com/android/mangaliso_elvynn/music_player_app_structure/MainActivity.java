@@ -25,18 +25,18 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ArrayList<Song> songs = new ArrayList<Song>();
-        songs.add(new Song("Jump", "Madonna", R.mipmap.ic_jump_song_art_round));
-        songs.add(new Song("Maneater", "Nelly Furtado", R.mipmap.ic_maneater_song_art_round));
-        songs.add(new Song("How much a dollar really cost", "Kendrick Lamar", R.mipmap.ic_how_much_a_dollar_song_art_round));
-        songs.add(new Song("Ubala", "Simmy", R.mipmap.ic_ubala_song_art_round));
-        songs.add(new Song("What goes around comes around", "Justin Timberlake", R.mipmap.ic_what_goes_around_song_art_round));
-        songs.add(new Song("Self-Control", "Laura Branigan", R.mipmap.ic_self_control_song_art_round));
-        songs.add(new Song("Heaven", "Nas", R.mipmap.ic_heaven_song_art_round));
-        songs.add(new Song("Ridin' Solo", "Jason Derulo", R.mipmap.ic_solo_song_art_round));
-        songs.add(new Song("Sing Our Own Song", "UB40", R.mipmap.ic_song_our_own_song_song_art_round));
-        songs.add(new Song("War", "Edwin Starr", R.mipmap.ic_war_song_art_round));
-        songs.add(new Song("Saved", "Khalid", R.mipmap.ic_saved_song_art_round));
-        songs.add(new Song("Dreaming", "Smallpools", R.mipmap.ic_dreaming_song_art_round));
+        songs.add(new Song("Jump", "Madonna", R.drawable.ic_jump_song_art_web));
+        songs.add(new Song("Maneater", "Nelly Furtado", R.drawable.ic_maneater_song_art_web));
+        songs.add(new Song("How much a dollar really cost", "Kendrick Lamar", R.drawable.ic_how_much_a_dollar_song_art_web));
+        songs.add(new Song("Ubala", "Simmy", R.drawable.ic_ubala_song_art_web));
+        songs.add(new Song("What goes around comes around", "Justin Timberlake", R.drawable.ic_what_goes_around_song_art_web));
+        songs.add(new Song("Self-Control", "Laura Branigan", R.drawable.ic_self_control_song_art_web));
+        songs.add(new Song("Heaven", "Nas", R.drawable.ic_heaven_song_art_web));
+        songs.add(new Song("Ridin' Solo", "Jason Derulo", R.drawable.ic_solo_song_art_web));
+        songs.add(new Song("Sing Our Own Song", "UB40", R.drawable.ic_song_our_own_song_song_art_web));
+        songs.add(new Song("War", "Edwin Starr", R.drawable.ic_war_song_art_web));
+        songs.add(new Song("Saved", "Khalid", R.drawable.ic_saved_song_art_web));
+        songs.add(new Song("Dreaming", "Smallpools", R.drawable.ic_dreaming_song_art_web));
 
         SongAdapter adapter = new SongAdapter(this, songs);
         ListView listView = findViewById(R.id.list);
